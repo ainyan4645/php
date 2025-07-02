@@ -117,6 +117,18 @@ do {
 // 3でも5でも割り切れる数	FizzBuzz
 // それ以外の数         　　　数字
 
+for ($gameNum = 1; $gameNum <= 50; $gameNum++){
+    if ($gameNum % 15 == 0) {
+        echo 'FizzBuzz' . '<br />';
+    }else if ($gameNum % 3 == 0) {
+        echo 'Fizz' . '<br />';
+    }else if ($gameNum % 5 == 0) {
+        echo 'Buzz' . '<br />';
+    }else {
+        echo $gameNum . '<br />';
+    }
+}
+
 // Q.二重ループ
 // 出力結果：
 // ●●●●●
@@ -124,4 +136,17 @@ do {
 // ●●●●●
 // ●●●●●
 // ●●●●●
+for ($i = 1 ; $i <= 5 ; $i++) {
+    for ($dango = "●●●●●";;) {
+        echo $dango . '<br />';
+        break;
+    }
+}
+// Answer...
+// for ($i = 1; $i < 6; $i++) {
+//     for ($j = 1; $j < 6; $j++) {
+//         echo "●";
+//     }
+//     echo "<br />";
+// }
 
