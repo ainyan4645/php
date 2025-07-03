@@ -1,6 +1,8 @@
 <?php
 // http://localhost/php01/index06.php にアクセス
 
+// 繰り返し
+
 // for 文
 // for ($i = 初期値; $i <= 回数; 増減式) {処理}
 for ($i = 0; $i < 4; $i++) {

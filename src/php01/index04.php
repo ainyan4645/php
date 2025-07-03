@@ -1,4 +1,8 @@
 <?php
+// URL: http://localhost/php01/index04.php
+
+// 演算子
+
 // 算術演算子
 $a = 15;
 $b = 3;

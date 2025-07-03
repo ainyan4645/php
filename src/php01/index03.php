@@ -1,4 +1,8 @@
 <?php
+// URL: http://localhost/php01/index03.php
+
+// 変数と定数
+
 // 上から順に実行され、一つの変数に一つの値しか入らない。
 $item = "JavaScript";
 // $item = "PHP";

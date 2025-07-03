@@ -1,4 +1,7 @@
 <?php
+// URL: http://localhost/php01/index05.php
+
+// 条件分岐
 
 // if 文
 $a = 5;
