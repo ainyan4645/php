@@ -87,7 +87,7 @@ Web ブラウザから PHP へのデータ送信方法のうち、代表的な�
 目標物：
 ![入力フォーム](https://coachtech-lms-bucket.s3.ap-northeast-1.amazonaws.com/curriculum/03_part/01_chapter/img/data.jpg)
 
-**HTML**
+＜HTML＞
 - 入力フォーム作成
 - 送信ボタンで画面遷移させる
 
@@ -115,9 +115,9 @@ Web ブラウザから PHP へのデータ送信方法のうち、代表的な�
 ```
 - 遷移先ページのファイル名を、「action = "遷移するファイル名"」として指定
 - POST で送信する時は、method 属性を「method="POST"」とする<br/>
-  →<input>タグの name 属性で指定した名前が、受け取る時の $_POST の添字となる。
+  →inputタグの name 属性で指定した名前が、受け取る時の $_POST の添字となる。
 
-**PHP**
+＜PHP＞
 - データを受け取る
 
 ```php
@@ -127,7 +127,7 @@ Web ブラウザから PHP へのデータ送信方法のうち、代表的な�
 $company = htmlspecialchars($_POST['company'], ENT_QUOTES);
 print "会社名は" . $company . "ですね";
 ```
-- htmlspecialchars :フォームを利用したセキリュティの攻撃を防ぐためにエスケープ処理をするための関数
+- **htmlspecialchars** :フォームを利用したセキリュティの攻撃を防ぐためにエスケープ処理をするための関数
 - 入力欄に入力後、送信ボタンクリックでcourse.phpに遷移して、ブラウザ表示が切り替わる。
 
 - POSTで送信する場合、Web ブラウザの入力データは Web サーバーへと送られる
